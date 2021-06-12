@@ -36,7 +36,10 @@ public class CILabTest {
     @Test
     public void detectCapitalUseTest3() {
     	myString.setString("Crenshaw");
+    	
+    	assertEquals(true, myString.detectCapitalUse());
     }
+
 
 
 }
